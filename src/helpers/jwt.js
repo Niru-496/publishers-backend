@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken')
-const env = require('dotenv')
+require("dotenv").config();
 module.exports.genereateAccessToken = async ({ _id }) => {
   const accessToken = await jwt.sign(
     {
