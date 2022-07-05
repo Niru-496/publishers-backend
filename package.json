@@ -1,11 +1,10 @@
 {
-  "name": "author-assignmet",
+  "name": "Rann-assignmet",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon start app.js",
-    "server": "node start"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
